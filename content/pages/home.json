@@ -1,46 +1,146 @@
 {
-  "title": "Home",
-  "headline": "Build real-time editing into your site.",
-  "description": "Tina is an open-source site editing toolkit for React-based sites like Gatsby & Next.js",
-  "hero_video": "v1571425758/tina-hero-demo-v2",
-  "hero_alt": "TinaCMS_video",
-  "three_points": [
+  "seo": {
+    "title": "Build contextual editing into your site",
+    "description": "Open-source visual editing experience, backed by git."
+  },
+  "blocks": [
     {
-      "_template": "selling_point",
-      "main": "Choose your tools",
-      "supporting": "Use Tina with your favorite modern JavaScript frameworks. While currently compatible with most React-based workflows — specifically Gatsby, Next.js and React SPA’s — plan on adding Tina to your Vue, Gridsome or Nuxt projects very soon."
+      "_template": "hero",
+      "headline": "Content editing for modern teams",
+      "subline": "Tina is an open-source CMS admin that talks to any API",
+      "actions": [
+        {
+          "variant": "button",
+          "label": "Try Demo",
+          "icon": "arrowRight",
+          "url": "#"
+        },
+        {
+          "variant": "link",
+          "label": "Learn More",
+          "icon": "",
+          "url": "#"
+        }
+      ],
+      "videoSrc": "v1571425758/tina-hero-demo-v2"
     },
     {
-      "_template": "selling_point",
-      "main": "Edit from your site",
-      "supporting": "Manage content on your own site, not another platform. Import Tina directly into your components to expose an editing interface for controlling and updating layers of your content mesh. You define the content model and editing powers specific to your site."
+      "headline": "New to Tina?",
+      "subline": "Learn the basics of the development workflow"
     },
     {
-      "_template": "selling_point",
-      "main": "Extend & contribute",
-      "supporting": "This is not one-size-fits-all CMS. Tina is a grassroots open source JavaScript toolkit with a plugin-rich ecosystem. You can customize and extend the toolkit to suit your needs. Get and give help with a robust community of contributors."
+      "_template": "flying",
+      "headline": "New to Tina?",
+      "subline": "Learn the basics of the development workflow",
+      "actions": [
+        {
+          "variant": "orange",
+          "label": "Check out the docs",
+          "icon": "arrowRight",
+          "url": "/docs/setup-overview/"
+        }
+      ],
+      "items": [
+        {
+          "headline": "Visual Editing",
+          "subline": "Most CMSs feel like a GUI on a database. Tina gives your team a contextual, intuitive experience."
+        },
+        {
+          "headline": "Built for the Jamstack",
+          "subline": "Tina is extensible by design, and already supports React and Next.js based websites."
+        },
+        {
+          "headline": "Your Design System & Components",
+          "subline": "Allow your team to pick from your custom, predefined components to build pages.  Maintain a simpler codebase that offers more versatility."
+        },
+        {
+          "headline": "Content Backed by Git",
+          "subline": "Tina supports content stored in Git. Give the benefits of version-control to your whole team."
+        }
+      ]
+    },
+    {
+      "_template": "features",
+      "headline": "Explore the *Tina ecosystem*",
+      "subline": "More than just a headless CMS, Tina has all the tools for building web experiences for interdisciplinary teams.",
+      "color": "white",
+      "items": [
+        {
+          "_template": "feature",
+          "headline": "Data Source Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party APIs",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Screen UI Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party AP",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Custom Fields",
+          "subline": "Extend primary fields with custom field plugins to completely control the editing experience and functionality.",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "_template": "flying",
+      "headline": "Learn Tina",
+      "subline": "Learn Tina through Interactive & Fun Tutorials.",
+      "actions": [
+        {
+          "variant": "button",
+          "label": "Get Started",
+          "icon": "arrowRight",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "_template": "hero",
+      "headline": "The Fastest Way to Edit Next.js Content",
+      "subline": "A visual editing experience for content stored in Markdown and JSON",
+      "actions": [
+        {
+          "variant": "orange",
+          "label": "Get Started",
+          "icon": "",
+          "url": "https://app.tina.io/quickstart"
+        }
+      ],
+      "videoSrc": "v1629294438/tina-io/Beta_Launch_Demo"
     }
-  ],
-  "setup": {
-    "headline": "Make your site editable in five minutes.",
-    "steps": [
-      {
-        "_template": "setup_point",
-        "step": "Install and configure Tina plugins"
-      },
-      {
-        "_template": "setup_point",
-        "step": "Wrap and export your templates with Tina components specific to your data"
-      },
-      {
-        "_template": "setup_point",
-        "step": "Customize and define the content fields by passing an options argument"
-      },
-      {
-        "_template": "setup_point",
-        "step": "Open the sidebar 🤩, edit your site and watch the content updating in real-time"
-      }
-    ],
-    "code_ex": "/img/terminal.png"
-  }
+  ]
 }
